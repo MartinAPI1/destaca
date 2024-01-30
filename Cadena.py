@@ -1,4 +1,4 @@
-cadena = "pedro pepe pica papas"
+cadena = "Hola mundo"
 contador_vocales = 0
 
 for caracter in cadena:
