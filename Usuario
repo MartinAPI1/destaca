@@ -1,0 +1,19 @@
+# Base de datos de usuarios y contraseñas (solo para propósitos de demostración)
+database = {
+    'usuario1': 'contraseña1',
+    'usuario2': 'contraseña2',
+    'usuario3': 'contraseña3'
+}
+
+def login():
+    username = input("Ingrese su nombre de usuario: ")
+    password = input("Ingrese su contraseña: ")
+
+    # Verificar si el usuario existe y la contraseña es correcta
+    if username in database and database[username] == password:
+        print("Inicio de sesión exitoso. ¡Bienvenido, {}!".format(username))
+    else:
+        print("Nombre de usuario o contraseña incorrectos. Inténtelo de nuevo.")
+
+# Ejecutar la función de inicio de sesión
+login()
