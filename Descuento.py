@@ -1,6 +1,6 @@
 valor = float(input('Valor del producto: '))
 
-# Procedimiento
+# Procso
 if valor >100:
     descuento = 0.10
 else:
